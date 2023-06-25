@@ -1,0 +1,104 @@
+body{
+    background: black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator-content{
+    display: flex;
+    flex-direction: column;
+    background: rgb(30, 30, 30);
+    gap: 50px 0px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.calculator-content input{
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgb(0, 145, 123);
+    height: 25px;
+    width: 300px;
+    outline: none;
+    
+}
+
+.input-field button{
+    background: rgb(0, 145, 123);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.input-field button:hover{
+    background: rgb(2, 192, 163);
+}
+
+.input-field{
+    display: flex;
+    flex-direction: row;
+    gap: 0 20px;
+    align-items: baseline;
+}
+
+.out-field{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.lb-input, .lb-out{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.result-content{
+    display: flex;
+    flex-direction: row;
+    gap:0px 20px;
+    height: 25px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.button-convertir{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-convertir{
+    background: rgb(2, 192, 163);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 400px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-convertir:hover{
+    background: rgb(1, 237, 202);
+}
+
+.select-op{
+    color: rgb(2, 192, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+
+.select-op option{
+    background: rgb(30, 30, 30);
+}

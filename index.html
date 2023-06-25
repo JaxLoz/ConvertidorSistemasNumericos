@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./app.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <main class="main-content">
+        <section class="calculator-content">
+            
+            <div class="input-field">
+                <label class="lb-input" for="input-Num">Convertir el numero</label>
+                <select  name="input-select" id="sel-input" class="select-op">
+                    <option>DEC</option>
+                    <option>BIN</option>
+                    <option>OCT</option>
+                    <option>HEX</option>
+                </select>
+                <input class="input-num" id="input-Num" type="text" >
+                
+            </div>
+
+            <div class="out-field">
+                
+                <div class="result-content">
+                    <label class="lb-out" for="out-Num">a base</label>
+                    <select name="out-select" id="sel-out" class="select-op">
+                        <option>DEC</option>
+                        <option>BIN</option>
+                        <option>OCT</option>
+                        <option>HEX</option>
+                    </select>
+                    <input class="field-result" id="out-Num" type="text">
+                </div>
+            </div>
+
+            <div class="button-convertir">
+                <button id="btn-conver" class="btn-convertir" type="button" onclick="convertir()">Convertir</button>
+            </div>
+            
+        </section>
+    </main>
+    
+</body>
+</html>
